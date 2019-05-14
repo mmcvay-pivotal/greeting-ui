@@ -10,6 +10,7 @@ applications:
   - circuit-breaker-dashboard
   env:
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
+    TRUST_CERTS: api.run.pivotal.io
 
 # The deployment script in github.com/ciberkleid/cna-demo-setup
 # will optionally set the following options as well:
